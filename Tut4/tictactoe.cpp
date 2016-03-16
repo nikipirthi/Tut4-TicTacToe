@@ -19,3 +19,23 @@ void tictactoe::reset()
 
 	}
 }
+
+bool tictactoe::move(int x, int y)
+{
+	if (grid[x][y] != ' ')
+	{
+		if (int i = 1)
+		{
+			grid[x][y] = 'x';
+		}
+		else
+		{
+			grid[x][y] = 'o';
+		}
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
