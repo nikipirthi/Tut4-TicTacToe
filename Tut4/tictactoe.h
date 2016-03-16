@@ -17,6 +17,7 @@ public:
 	tictactoe();
 	void reset();
 	bool move(int, int);
+	void print();
 
 
 };

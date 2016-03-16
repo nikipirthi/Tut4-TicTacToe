@@ -39,3 +39,15 @@ bool tictactoe::move(int x, int y)
 		return false;
 	}
 }
+
+void tictactoe::print()
+{
+	for (int i = 0; i < 3; i++)
+	{
+		for (int t = 0; t < 3; t++)
+		{
+			cout << grid[i][t] << " " << endl;
+		}
+		cout << endl;
+	}
+}
